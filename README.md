@@ -29,13 +29,17 @@ The repository includes the following key components:
 
 If you use this repository in your research, please cite the following paper:
 
-@article{CRPS_preaccept,
-  title={Domain-adaptive State-of-Health Prediction of On-vehicle Batteries Powered by Deep Learning},
-  author={Minghe Li, Zicheng Fei, Luoxiao Yang, Zijun Zhang*, and Kwok-Leung Tsui
-},
-  journal={Cell Reports Physical Science},
-  year={2025},
-  doi={DOI}
+@article{LI2025102550,
+  title = {Domain-adaptive state of health prediction of vehicle batteries powered by deep learning},
+  journal = {Cell Reports Physical Science},
+  pages = {102550},
+  year = {2025},
+  issn = {2666-3864},
+  doi = {https://doi.org/10.1016/j.xcrp.2025.102550},
+  url = {https://www.sciencedirect.com/science/article/pii/S2666386425001493},
+  author = {Minghe Li and Zicheng Fei and Luoxiao Yang and Zijun Zhang and Kwok-Leung Tsui},
+  keywords = {lithium-ion battery, electric vehicles, state of health, deep learning, data-driven model, domain adaptation, signal denoising, data feature fusion},
+  abstract = {State of health (SOH) estimation of battery packs in electric vehicles (EVs) is essential for transportation electrification safety and reliability. The noise and complexity of EV battery pack data hinder the effectiveness of various data-driven SOH estimation methods using lab data. To address these challenges and achieve more effective data-driven EV battery pack SOH predictions, this study develops a comprehensive deep-learning-based SOH modeling framework for EV batteries. The framework begins with a two-stage mode decomposition (TSMD) method designed to effectively identify neat SOH degradation patterns better representing noisy field data. Next, an endogenous and exogenous multibranch network structure with a hierarchically fused attention mechanism (EEMB-HiFA) is developed for real-time prediction of EV battery pack SOH. Computational experiments leveraging datasets from seven EVs are conducted to validate the accuracy and adaptiveness of the proposed EEMB-HiFA. The results show that the EEMB-HiFA can achieve a 96.49% improvement in accuracy compared to strong benchmarks considered.}
 }
 
 ## Contact
