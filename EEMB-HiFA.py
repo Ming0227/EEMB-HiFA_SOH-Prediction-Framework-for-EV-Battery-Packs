@@ -336,5 +336,5 @@ if __name__ == '__main__':
                 lstm_input_size, lstm_hidden_size, lstm_num_layers, lstm_output_size, num_inputs, num_hidden1,
                 num_hidden2, num_hidden3, num_outputs, drop_out).to(device)
 
-    c_mlp, y_predicted = MHMB(x1, x2, x3, x4, x5, x6, x7)
+    y_predicted = MHMB(x1, x2, x3, x4, x5, x6, x7)
     print('predict', y_predicted)
